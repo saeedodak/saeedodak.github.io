@@ -100,7 +100,7 @@ lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ipsum dolor sit | lorem ip
 
 ### Images 
 
-![](https://i.loli.net/2020/04/16/TiPKsjzZdcp2tOq.jpg)
+![](https://i.loli.net/2020/04/16/TiPKsjzZdcp2tOq.jpg){:height="480px" width="750px"}
 
 
 ### Styles
