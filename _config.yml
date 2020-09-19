@@ -24,7 +24,7 @@ email: saeedodak@gmail.com # your email shown in the footer
 description: > # this means to ignore newlines until "show_excerpts:"
   A point of view in math and algorithm.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "saeedodak.github.io/" # the base hostname & protocol for your site, e.g. http://example.com # this is your site's root address.
+url: "" # the base hostname & protocol for your site, e.g. http://example.com # this is your site's root address.
 twitter_username: saeed_odak
 github_username: saeedodak
 
