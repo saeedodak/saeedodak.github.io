@@ -59,7 +59,9 @@ show_excerpts: false # set to true to show excerpts on the homepage
 # Moving date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 moving:
-  avatar_url: "https://userpic.codeforces.com/296303/title/1f0844074883b4.jpg" # avatar in about page
+  avatar_url: "https://userpic.codeforces.com/296303/title/c1582c9793e64660.jpg" # avatar in about page
+  url_404: "https://pasteboard.co/JrONDJf.png" # avatar in about page
+  # avatar_url: "https://userpic.codeforces.com/296303/title/1f0844074883b4.jpg" # avatar in about page
   # avatar_url: "https://i.loli.net/2019/08/26/JzCLhDWPEybZr2T.jpg" # avatar in about page
   about_you: "Oh, Damn..., It's hard to write about myself..." # short description about you in about page
   date_format: "%b %d, %Y" # date format of posts in home page
