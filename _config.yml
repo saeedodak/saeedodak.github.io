@@ -24,7 +24,7 @@ email: saeedodak@gmail.com # your email shown in the footer
 description: > # this means to ignore newlines until "show_excerpts:"
   A point of view in math and algorithm.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "saeedodak.github.io" # the base hostname & protocol for your site, e.g. http://example.com # this is your site's root address.
+url: "saeedodak.github.io/" # the base hostname & protocol for your site, e.g. http://example.com # this is your site's root address.
 twitter_username: saeed_odak
 github_username: saeedodak
 
@@ -59,7 +59,7 @@ show_excerpts: false # set to true to show excerpts on the homepage
 # Moving date format
 # refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 moving:
-  avatar_url: "https://userpic.codeforces.com/296303/title/c1582c9793e64660.jpg" # avatar in about page
+  avatar_url: "https://userpic.codeforces.com/296303/title/4fc217abd29aa164.jpg" # avatar in about page
   url_404: "https://pasteboard.co/JrONDJf.png" # avatar in about page
   # avatar_url: "https://userpic.codeforces.com/296303/title/1f0844074883b4.jpg" # avatar in about page
   # avatar_url: "https://i.loli.net/2019/08/26/JzCLhDWPEybZr2T.jpg" # avatar in about page
