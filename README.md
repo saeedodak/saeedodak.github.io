@@ -134,3 +134,7 @@ https://support.atlassian.com/bitbucket-cloud/docs/add-edit-and-commit-to-source
 https://guides.github.com/features/mastering-markdown/
 https://github.com/joway/hugo-theme-yinyang
 https://www.mathjax.org/#demo
+https://www.cssscript.com/top-10-javascript-css-parallax-scroll-effects/
+
+
+

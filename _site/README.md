@@ -119,6 +119,22 @@ The theme is available as open source under the terms of the [MIT License](https
 
 `bundle exec jekyll serve`
 
+git add --all
+git commit -m "some_message"
+git remote add origin https://github.com/saeedodak/saeedodak.github.io/
+git push origin master
+
+
+
+
+
 ## resources
 
+https://support.atlassian.com/bitbucket-cloud/docs/add-edit-and-commit-to-source-files/
 https://guides.github.com/features/mastering-markdown/
+https://github.com/joway/hugo-theme-yinyang
+https://www.mathjax.org/#demo
+https://www.cssscript.com/top-10-javascript-css-parallax-scroll-effects/
+
+
+

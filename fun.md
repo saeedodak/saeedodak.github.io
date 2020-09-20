@@ -1,0 +1,4 @@
+---
+layout: fun
+permalink : /fun
+---

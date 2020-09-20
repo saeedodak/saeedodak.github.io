@@ -18,7 +18,7 @@ main { display: block; /* Default value of `display` of `main` element is 'inlin
 hr { margin-top: 20px; margin-bottom: 20px; border: 0; height: 1px; background: -webkit-linear-gradient(left, transparent, rgba(0, 0, 0, 0.5), transparent); background: linear-gradient(left, transparent, rgba(0, 0, 0, 0.5), transparent); }
 
 /** Images */
-img { margin-bottom: 5px; margin-top: 5px; padding: 2px 2px; border-radius: 3px; background-color: #f0f0f0; max-width: 100%; vertical-align: middle; }
+.img { margin-bottom: 5px; margin-top: 5px; padding: 2px 2px; border-radius: 3px; background-color: #f0f0f0; max-width: 100%; vertical-align: middle; }
 
 /** Figures */
 figure > img { display: block; }
