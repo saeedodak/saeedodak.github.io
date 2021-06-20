@@ -14,7 +14,6 @@ Inspired by [Hugo](https://gohugo.io/) theme, [YinYang](https://github.com/joway
 ### New Blog
 If you want to create a new blog using moving. You can follow these steps after setting up the [Jekyll](https://jekyllrb.com) environments:
 
-okokok
 
 Clone this repository: 
 ```bash
@@ -127,6 +126,14 @@ git remote add origin https://github.com/saeedodak/saeedodak.github.io/
 git push origin master
 
 
+$$$$$$$$$$$$$
+create a file: touch [filename] 
+check the status: git status
+track and stage a single file: git add [filename] 
+track and stage all files: git add .
+commit with a message: git commit -m "description of commit"
+view the log: git log
+push changes: git push [remotename] [branchname]
 
 
 
