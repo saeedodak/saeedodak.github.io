@@ -23,7 +23,7 @@ b {
 
 h1 {
 	font-family: monospace;
-	margin-top:100px auto;
+	margin-top:200px auto;
 	text-align:center;
 	/*color:#e85a4f*/
 }
@@ -49,4 +49,9 @@ journal {
     margin-right: auto;
 }
 
+img {
+	margin-top: 250px;
+  width: 50%;
+  height: auto;
+}
 
