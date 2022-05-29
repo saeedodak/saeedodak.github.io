@@ -23,7 +23,7 @@ b {
 
 h1 {
 	font-family: monospace;
-	margin-top:200px auto;
+	margin-top: 80px;
 	text-align:center;
 	/*color:#e85a4f*/
 }
@@ -50,8 +50,19 @@ journal {
 }
 
 img {
-	margin-top: 250px;
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
