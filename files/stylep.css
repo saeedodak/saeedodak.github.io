@@ -1,0 +1,52 @@
+a {
+	/*color:#e98074;*/
+	text-decoration: none;
+}
+
+body{
+	margin		:100px auto;
+	margin-top:200px auto;
+	max-width	:850px;
+	line-height	:1.6;
+	font-size	:16px;
+	font-family: monospace, Helvetica, Arial, sans-serif;
+  font-style: normal;
+	/*color		:#8e8d8a;*/
+	/*background-color :#eae7dc;*/
+	padding		:0 10px;
+	/*font-family: "Trebuchet MS", Helvetica, sans-serif;*/
+}
+
+b {
+	/*color:#e98074*/
+}
+
+h1 {
+	font-family: monospace;
+	margin-top:100px auto;
+	text-align:center;
+	/*color:#e85a4f*/
+}
+
+h2 {
+	color:#e98074
+}
+
+h3 {
+	/*line-height:1.2;*/
+	/*color:#e98074*/
+}
+
+journal {
+  /*background-color: tomato;*/
+  color: red;
+  /*padding: 10px;*/
+} 
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+

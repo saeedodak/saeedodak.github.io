@@ -1,35 +1,22 @@
----
-layout: default
-title: About
-permalink: /about
----
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Saeed Odak</title>
+<link rel="stylesheet" type="text/css" href="./files/stylep.css">
 
-<div class="about-page">
-  <head>
-    <title> {{ site.author }} </title>
-  </head>
-  <div class="post-back">
-    <br>
-  </div>
-  <div class="about-header">
-    {%- if site.author -%}
-    <div class="about-info">
-      <div class="about-your-name">
-        {{ site.author | escape }}
-      </div>
-      {%- endif -%} {%- if site.moving.about_you -%}
-      <p class="about-description">
-        {{ site.moving.about_you | escape }}
-      </p>
-      {%- endif -%}
-      {%- include social.html -%}
-    </div>
-    {%- if site.moving.avatar_url -%}
-    <img class="about-avatar img" src="/img/bunny_avatar.png" />
-    {%- endif -%} 
-  </div>
 
-  <div class="about-content e-content" itemprop="articleBody">
-    {{ content }}
-  </div>
-</div>
+</head>
+
+<body>
+
+<img class="about-page.about" src="/img/bunny_avatar.png" align="right">
+
+<h1 margin_top = "250px">Saeed Odak</h1>
+
+<p> I am a second-year PhD student in the <a href="https://cglab.ca">Computational Geometry Group</a> at the University of Ottawa, advised by <a href="https://jitbose.ca"> Prosenjit Bose </a>, <a href="https://cglab.ca/~morin"> Pat Morin </a>, and <a href="https://cglab.ca/~vida"> Vida Dujmovic </a>. </p>
+<p> My research interests are in Discrete and Computational Geometry, Algorithms and Data Structurs, Combinatorics, and Graph Theory.</p>
+
+
+<p> <b>Email:</b> sodak at uottawa dot ca </p>
+
+</body>
+</html>
+
