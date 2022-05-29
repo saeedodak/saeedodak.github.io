@@ -317,8 +317,8 @@
     .about-avatar {
       padding: 1px;
       border: 1px solid $grey-color-light;
-      width: 10rem;
-      height: 10rem;
+      width: 16rem;
+      height: 16rem;
       margin: 0 2rem 0 0;
     }
 
@@ -334,6 +334,7 @@
 
       .about-description {
         margin-top: -0.6rem;
+        margin-right: 5.6rem;
         @include relative-font-size(1);
         color: lighten($text-color, 25%);
       }

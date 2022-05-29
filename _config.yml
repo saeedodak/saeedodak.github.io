@@ -64,11 +64,11 @@ moving:
 
   # generate social links in about page.
   social_links:
-    twitter: saeed_odak
+    # twitter: saeed_odak
     github: saeedodak
     # rss: RSS
     # dribbble: 
-    facebook: saeed.odak
+    # facebook: saeed.odak
     # flickr:   
     # instagram: saeed_odak
     # linkedin: saeedodak
@@ -76,7 +76,7 @@ moving:
     # youtube: 
     # youtube_channel: 
     # youtube_channel_name: 
-    telegram: saeed_odak
+    # telegram: saeed_odak
     # googleplus: 
     # microdotblog: 
     # reddit: 

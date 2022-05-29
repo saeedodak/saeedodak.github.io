@@ -1,0 +1,35 @@
+---
+layout: default
+title: About
+permalink: /about
+---
+
+<div class="about-page">
+  <head>
+    <title> {{ site.author }} </title>
+  </head>
+  <div class="post-back">
+    <br>
+  </div>
+  <div class="about-header">
+    {%- if site.author -%}
+    <div class="about-info">
+      <div class="about-your-name">
+        {{ site.author | escape }}
+      </div>
+      {%- endif -%} {%- if site.moving.about_you -%}
+      <p class="about-description">
+        {{ site.moving.about_you | escape }}
+      </p>
+      {%- endif -%}
+      {%- include social.html -%}
+    </div>
+    {%- if site.moving.avatar_url -%}
+    <img class="about-avatar img" src="/img/bunny_avatar.png" />
+    {%- endif -%} 
+  </div>
+
+  <div class="about-content e-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+</div>
