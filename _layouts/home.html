@@ -4,14 +4,14 @@ layout: default
 
 <div class="home">
   <head>
-      <title>{{ site.title }}</title>
+      <title>{{ }}</title>
   </head>
   <div class="home-title">
     <div class="post-back">
       <a class="black-link" href="/"> ← Home </a>
     </div>
-    <p class="home-heading">{{ site.title }}</p>
-    <p class="home-sub-heading">{{- site.description | escape -}}</p>
+    <p class="home-heading">{{ }}</p>
+    <p class="home-sub-heading">{{- escape -}}</p>
   </div>
 
   {%- if site.posts.size > 0 -%}
