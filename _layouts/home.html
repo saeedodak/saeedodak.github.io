@@ -5,6 +5,20 @@ layout: default
 <div class="home">
   <head>
       <title> Saeed Odak </title>
+  <style>
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    th, td {
+        padding: 8px;
+        border-bottom: 1px solid #ddd;
+        text-align: left;
+    }
+    td:nth-child(2) {
+        text-align: right;
+    }
+  </style>
   </head>
   <div class="home-title">
     <div class="post-back">
@@ -18,13 +32,21 @@ layout: default
   <ul class="post-list">
       {% for post in site.posts  %}
       <li>
-          <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
-            {{ post.title | escape }}
-          </a>
-          {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
-          <span class="post-meta">
-            {{ post.date | date: date_format }}
-          </span>
+          <table>
+            <tr>
+              <th>
+                <a class="black-link post-link-layout" href="{{ post.url | relative_url }}">
+                    {{ post.title | escape }}
+                </a>
+              </th>
+              <th>
+                {%- assign date_format = site.moving.date_format | default: "%b %-d, %Y" -%}
+                <span class="post-meta">
+                     {{ post.date | date: date_format }}
+                </span>
+              </th>
+            </tr>
+          </table>
       </li>
       {% endfor %}
   </ul>
